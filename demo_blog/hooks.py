@@ -7,6 +7,7 @@ app_license = "mit"
 
 # Apps
 # ------------------
+fixtures = ["post","auther","PostCatgory"]
 
 # required_apps = []
 

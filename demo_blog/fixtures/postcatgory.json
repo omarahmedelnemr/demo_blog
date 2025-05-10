@@ -1,0 +1,26 @@
+[
+ {
+  "description": "This Category is About News",
+  "docstatus": 0,
+  "doctype": "PostCatgory",
+  "modified": "2025-05-10 08:10:34.015123",
+  "name": "News",
+  "name1": "News"
+ },
+ {
+  "description": "This Category is about Tech",
+  "docstatus": 0,
+  "doctype": "PostCatgory",
+  "modified": "2025-05-10 08:11:54.452261",
+  "name": "Tech",
+  "name1": "Tech"
+ },
+ {
+  "description": "This Category is about Sports",
+  "docstatus": 0,
+  "doctype": "PostCatgory",
+  "modified": "2025-05-10 08:10:55.332945",
+  "name": "Sports",
+  "name1": "Sports"
+ }
+]
