@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:auther{#####}",
+ "creation": "2025-05-10 07:32:23.616012",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "create_auher_account_section",
+  "profile_image",
+  "column_break_mert",
+  "name1",
+  "bio",
+  "email",
+  "published"
+ ],
+ "fields": [
+  {
+   "fieldname": "create_auher_account_section",
+   "fieldtype": "Section Break",
+   "label": "Create Auher Account"
+  },
+  {
+   "fieldname": "profile_image",
+   "fieldtype": "Attach Image",
+   "label": "Profile Image"
+  },
+  {
+   "fieldname": "column_break_mert",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Data",
+   "label": "Bio"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Int",
+   "label": "Published"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-10 23:06:25.779346",
+ "modified_by": "Administrator",
+ "module": "Demo Blog",
+ "name": "auther",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

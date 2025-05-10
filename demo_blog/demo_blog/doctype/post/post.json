@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:post{#####}",
+ "creation": "2025-05-10 07:30:41.196859",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "new_post_section",
+  "title",
+  "short_intro",
+  "published_at",
+  "post",
+  "user",
+  "category",
+  "column_break_ycjk",
+  "preview"
+ ],
+ "fields": [
+  {
+   "fieldname": "new_post_section",
+   "fieldtype": "Section Break",
+   "label": "New Post"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "short_intro",
+   "fieldtype": "Data",
+   "label": "Short intro",
+   "reqd": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "published_at",
+   "fieldtype": "Datetime",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "published at",
+   "reqd": 1
+  },
+  {
+   "fieldname": "post",
+   "fieldtype": "Long Text",
+   "label": "post",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "auther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "PostCatgory",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ycjk",
+   "fieldtype": "Column Break",
+   "in_preview": 1
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "Attach Image",
+   "in_preview": 1,
+   "label": "Preview"
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "preview",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "make_attachments_public": 1,
+ "modified": "2025-05-10 23:06:49.020134",
+ "modified_by": "Administrator",
+ "module": "Demo Blog",
+ "name": "post",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "auther",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
