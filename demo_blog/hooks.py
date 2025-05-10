@@ -7,7 +7,9 @@ app_license = "mit"
 
 # Apps
 # ------------------
-fixtures = ["post","auther","PostCatgory"]
+fixtures = [
+    {"dt": "DocType", "filters": [["name", "in", ["Post", "PostCategory", "Auther"]]]}
+]
 
 # required_apps = []
 
